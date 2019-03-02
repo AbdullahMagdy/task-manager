@@ -1,0 +1,18 @@
+﻿Build started 25/12/2017 03:43:41 م.
+     1>Project "D:\DS project\Project DS\Project1\Project1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt taskmanager.cpp
+         taskmanager.cpp
+     1>d:\ds project\project ds\project1\taskmanager.cpp(252): warning C4129: ' ' : unrecognized character escape sequence
+     1>d:\ds project\project ds\project1\taskmanager.cpp(298): warning C4129: ' ' : unrecognized character escape sequence
+     1>d:\ds project\project ds\project1\taskmanager.cpp(416): warning C4129: ' ' : unrecognized character escape sequence
+     1>d:\ds project\project ds\project1\taskmanager.cpp(184): warning C4715: 'taskmanager::check' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\DS project\Project DS\Debug\Project1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\DS project\Project DS\Debug\Project1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\DS project\Project DS\Debug\Project1.lib" /MACHINE:X86 Debug\Source.obj
+         Debug\taskmanager.obj
+         Project1.vcxproj -> D:\DS project\Project DS\Debug\Project1.exe
+     1>Done Building Project "D:\DS project\Project DS\Project1\Project1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.61
